@@ -1,0 +1,11 @@
+services:
+  dockerize-dot-net-core:
+    build:
+      context: C:\WORK@SE\Projects\LayoutService
+      dockerfile: dockerize-dot-net-core/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: dockerizedotnetcore
+    ports:
+    - target: 83
+version: '3.4'

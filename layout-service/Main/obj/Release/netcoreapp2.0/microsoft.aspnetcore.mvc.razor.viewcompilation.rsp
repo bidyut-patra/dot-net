@@ -1,0 +1,5 @@
+C:\WORK@SE\Projects\dockerize-dot-net-core\dockerize-dot-net-core
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Rest.Services
+--content-root=C:\WORK@SE\Projects\dockerize-dot-net-core\dockerize-dot-net-core
+--file=

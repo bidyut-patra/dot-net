@@ -1,0 +1,9 @@
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\bin\Release\netcoreapp2.0\Repository.Core.deps.json
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\bin\Release\netcoreapp2.0\Repository.Core.dll
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\bin\Release\netcoreapp2.0\Repository.Core.pdb
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\obj\Release\netcoreapp2.0\BaseRepository.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\obj\Release\netcoreapp2.0\BaseRepository.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\obj\Release\netcoreapp2.0\BaseRepository.AssemblyInfoInputs.cache
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\obj\Release\netcoreapp2.0\BaseRepository.AssemblyInfo.cs
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\obj\Release\netcoreapp2.0\Repository.Core.dll
+C:\WORK@SE\Projects\dockerize-dot-net-core\BaseRepository\obj\Release\netcoreapp2.0\Repository.Core.pdb
