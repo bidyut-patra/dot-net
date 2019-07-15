@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Async.Communication">
+      <HintPath>..\Async.Communication\bin\Debug\netstandard2.0\Async.Communication.dll</HintPath>
+    </Reference>
+    <Reference Include="Async.Messages">
+      <HintPath>..\Async.Messages\bin\Debug\netcoreapp2.0\Async.Messages.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\obj\Debug\netcoreapp2.0\SignalR.Client.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\obj\Debug\netcoreapp2.0\SignalR.Client.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\obj\Debug\netcoreapp2.0\SignalR.Client.AssemblyInfoInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\obj\Debug\netcoreapp2.0\SignalR.Client.AssemblyInfo.cs
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\SignalR.Client.deps.json
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\SignalR.Client.runtimeconfig.json
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\SignalR.Client.runtimeconfig.dev.json
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\SignalR.Client.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\SignalR.Client.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\Async.Messages.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\SignalR.Core.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\Async.Messages.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\bin\Debug\netcoreapp2.0\SignalR.Core.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\obj\Debug\netcoreapp2.0\SignalR.Client.csproj.CopyComplete
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\obj\Debug\netcoreapp2.0\SignalR.Client.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\SignalR.Client\obj\Debug\netcoreapp2.0\SignalR.Client.pdb

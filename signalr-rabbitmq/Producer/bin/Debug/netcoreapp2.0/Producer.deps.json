@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Producer/1.0.0": {
+        "dependencies": {
+          "Async.Communication": "1.0.0.0",
+          "Async.Messages": "1.0.0.0"
+        },
+        "runtime": {
+          "Producer.dll": {}
+        }
+      },
+      "Async.Communication/1.0.0.0": {
+        "runtime": {
+          "Async.Communication.dll": {}
+        }
+      },
+      "Async.Messages/1.0.0.0": {
+        "runtime": {
+          "Async.Messages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Producer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Async.Communication/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Async.Messages/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

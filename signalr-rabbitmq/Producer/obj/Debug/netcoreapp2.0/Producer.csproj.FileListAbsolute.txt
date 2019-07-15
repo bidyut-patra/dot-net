@@ -1,0 +1,17 @@
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Producer.deps.json
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Producer.runtimeconfig.json
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Producer.runtimeconfig.dev.json
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Producer.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Producer.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Async.Communication.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Async.Messages.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Async.Communication.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Async.Communication.dll.config
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\bin\Debug\netcoreapp2.0\Async.Messages.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\obj\Debug\netcoreapp2.0\Producer.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\obj\Debug\netcoreapp2.0\Producer.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\obj\Debug\netcoreapp2.0\Producer.AssemblyInfoInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\obj\Debug\netcoreapp2.0\Producer.AssemblyInfo.cs
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\obj\Debug\netcoreapp2.0\Producer.csproj.CopyComplete
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\obj\Debug\netcoreapp2.0\Producer.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Producer\obj\Debug\netcoreapp2.0\Producer.pdb

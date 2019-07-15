@@ -1,0 +1,13 @@
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\bin\Debug\netstandard2.0\Async.Communication.dll.config
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\bin\Debug\netstandard2.0\Async.Communication.deps.json
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\bin\Debug\netstandard2.0\Async.Communication.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\bin\Debug\netstandard2.0\Async.Communication.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\bin\Debug\netstandard2.0\Async.Messages.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\bin\Debug\netstandard2.0\Async.Messages.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\obj\Debug\netstandard2.0\Async.Communication.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\obj\Debug\netstandard2.0\Async.Communication.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\obj\Debug\netstandard2.0\Async.Communication.AssemblyInfoInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\obj\Debug\netstandard2.0\Async.Communication.AssemblyInfo.cs
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\obj\Debug\netstandard2.0\Async.Communication.csproj.CopyComplete
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\obj\Debug\netstandard2.0\Async.Communication.dll
+C:\WORK@SE\Projects\GitHub\dot-net\signalr-rabbitmq\Async.Communication\obj\Debug\netstandard2.0\Async.Communication.pdb
