@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Authentication.Service.Host</name>
+    </assembly>
+    <members>
+        <member name="M:Authentication.Service.Host.Program.OwinSelfHostWebApi(System.String)">
+            <summary>
+            OWIN Self Host
+            </summary>
+            <param name="authUrl"></param>
+        </member>
+        <member name="M:Authentication.Service.Host.Program.SelfHostWebApi(System.String)">
+            <summary>
+            Self Host
+            </summary>
+            <param name="authUrl"></param>
+        </member>
+        <member name="T:Authentication.Service.Host.Startup">
+            <summary>
+            Startup class
+            </summary>
+        </member>
+        <member name="M:Authentication.Service.Host.Startup.Configuration(Owin.IAppBuilder)">
+            <summary>
+            Configure the app
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:Authentication.Service.Host.Startup.Configure(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Configures the http
+            </summary>
+            <param name="config"></param>
+        </member>
+    </members>
+</doc>
