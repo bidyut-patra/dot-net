@@ -100,12 +100,20 @@ namespace Authentication.Service
         /// <returns></returns>
         private string ComputeToken(UserInfo userInfo)
         {
-            var userPasswordString = userInfo.User + "-" + userInfo.Password + "-" + DateTime.Now.ToUniversalTime().ToString();
-            var authBytes = AuthenticationHelper.GetBytes(userPasswordString);
-            var md5 = MD5.Create();
-            var hashBytes = md5.ComputeHash(authBytes);
-            var token = AuthenticationHelper.GetString(hashBytes);
-            return Guid.NewGuid().ToString();
+            TripleDESCryptoServiceProvider tdes = new TripleDESCryptoServiceProvider();
+            tdes.GenerateKey();
+            var tokenString = userInfo.User + "-" + DateTime.Now.Ticks + "-" + AuthenticationHelper.GetString(tdes.Key);
+            var authBytes = AuthenticationHelper.GetBytes(tokenString);
+            var token = new StringBuilder();
+            foreach(var authByte in authBytes)
+            {
+                // Pick only alphanumeric characters: 65 - 90 && 97 - 122 && 48 - 57
+                if((authByte >= 65 && authByte <= 90) || (authByte >= 97 && authByte <= 122) || (authByte >= 48 && authByte <= 57))
+                {
+                    token.Append((char)authByte);
+                }
+            }
+            return token.ToString();
         }
 
         /// <summary>
