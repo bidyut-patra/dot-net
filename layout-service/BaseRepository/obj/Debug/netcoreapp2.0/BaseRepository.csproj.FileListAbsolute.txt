@@ -32,3 +32,12 @@ C:\WORK@SE\Projects\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\BaseRe
 C:\WORK@SE\Projects\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\BaseRepository.AssemblyInfo.cs
 C:\WORK@SE\Projects\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\Repository.Core.dll
 C:\WORK@SE\Projects\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\Repository.Core.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\bin\Debug\netcoreapp2.0\Repository.Core.deps.json
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\bin\Debug\netcoreapp2.0\Repository.Core.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\bin\Debug\netcoreapp2.0\Repository.Core.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\BaseRepository.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\BaseRepository.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\BaseRepository.AssemblyInfoInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\BaseRepository.AssemblyInfo.cs
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\Repository.Core.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\BaseRepository\obj\Debug\netcoreapp2.0\Repository.Core.pdb

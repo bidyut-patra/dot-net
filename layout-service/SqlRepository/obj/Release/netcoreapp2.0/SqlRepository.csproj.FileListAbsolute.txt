@@ -12,3 +12,15 @@ C:\WORK@SE\Projects\dockerize-dot-net-core\SqlRepository\obj\Release\netcoreapp2
 C:\WORK@SE\Projects\dockerize-dot-net-core\SqlRepository\obj\Release\netcoreapp2.0\SqlRepository.csproj.CopyComplete
 C:\WORK@SE\Projects\dockerize-dot-net-core\SqlRepository\obj\Release\netcoreapp2.0\Repository.Sql.dll
 C:\WORK@SE\Projects\dockerize-dot-net-core\SqlRepository\obj\Release\netcoreapp2.0\Repository.Sql.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\bin\Release\netcoreapp2.0\Repository.Sql.deps.json
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\bin\Release\netcoreapp2.0\Repository.Sql.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\bin\Release\netcoreapp2.0\Repository.Sql.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\bin\Release\netcoreapp2.0\Repository.Core.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\bin\Release\netcoreapp2.0\Repository.Core.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\obj\Release\netcoreapp2.0\SqlRepository.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\obj\Release\netcoreapp2.0\SqlRepository.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\obj\Release\netcoreapp2.0\SqlRepository.AssemblyInfoInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\obj\Release\netcoreapp2.0\SqlRepository.AssemblyInfo.cs
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\obj\Release\netcoreapp2.0\SqlRepository.csproj.CopyComplete
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\obj\Release\netcoreapp2.0\Repository.Sql.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\SqlRepository\obj\Release\netcoreapp2.0\Repository.Sql.pdb

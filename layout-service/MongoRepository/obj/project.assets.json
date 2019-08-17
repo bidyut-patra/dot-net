@@ -5446,11 +5446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WORK@SE\\Projects\\layout-service\\MongoRepository\\MongoRepository.csproj",
+      "projectUniqueName": "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\MongoRepository\\MongoRepository.csproj",
       "projectName": "Repository.Mongo",
-      "projectPath": "C:\\WORK@SE\\Projects\\layout-service\\MongoRepository\\MongoRepository.csproj",
+      "projectPath": "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\MongoRepository\\MongoRepository.csproj",
       "packagesPath": "C:\\Users\\SESA503898\\.nuget\\packages\\",
-      "outputPath": "C:\\WORK@SE\\Projects\\layout-service\\MongoRepository\\obj\\",
+      "outputPath": "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\MongoRepository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5470,8 +5470,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\WORK@SE\\Projects\\layout-service\\BaseRepository\\BaseRepository.csproj": {
-              "projectPath": "C:\\WORK@SE\\Projects\\layout-service\\BaseRepository\\BaseRepository.csproj"
+            "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\BaseRepository\\BaseRepository.csproj": {
+              "projectPath": "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\BaseRepository\\BaseRepository.csproj"
             }
           }
         }

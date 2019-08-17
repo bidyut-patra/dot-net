@@ -46,3 +46,17 @@ C:\WORK@SE\Projects\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\Mongo
 C:\WORK@SE\Projects\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\MongoRepository.csproj.CopyComplete
 C:\WORK@SE\Projects\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\Repository.Mongo.dll
 C:\WORK@SE\Projects\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\Repository.Mongo.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\MongoRepository.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\MongoRepository.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\MongoRepository.AssemblyInfoInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\MongoRepository.AssemblyInfo.cs
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\Repository.Mongo.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\Repository.Mongo.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\bin\Debug\netcoreapp2.0\Repository.Mongo.deps.json
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\bin\Debug\netcoreapp2.0\Repository.Mongo.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\bin\Debug\netcoreapp2.0\Repository.Mongo.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\bin\Debug\netcoreapp2.0\Repository.Core.dll
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\bin\Debug\netcoreapp2.0\Repository.Core.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\WORK@SE\Projects\GitHub\dot-net\layout-service\MongoRepository\obj\Debug\netcoreapp2.0\MongoRepository.csproj.CopyComplete

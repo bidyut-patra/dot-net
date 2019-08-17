@@ -10,7 +10,7 @@
         "dependencies": {
           "MongoDB.Driver": "2.8.1",
           "Repository.Core": "1.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "2.0.2.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0.0"
         },
         "runtime": {
           "Repository.Mongo.dll": {}
@@ -959,7 +959,7 @@
           "Repository.Core.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/2.0.2.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/2.2.0.0": {
         "runtime": {
           "Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
@@ -1551,7 +1551,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Configuration.Abstractions/2.0.2.0": {
+    "Microsoft.Extensions.Configuration.Abstractions/2.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

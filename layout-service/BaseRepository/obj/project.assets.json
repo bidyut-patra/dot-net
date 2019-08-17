@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WORK@SE\\Projects\\layout-service\\BaseRepository\\BaseRepository.csproj",
+      "projectUniqueName": "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\BaseRepository\\BaseRepository.csproj",
       "projectName": "Repository.Core",
-      "projectPath": "C:\\WORK@SE\\Projects\\layout-service\\BaseRepository\\BaseRepository.csproj",
+      "projectPath": "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\BaseRepository\\BaseRepository.csproj",
       "packagesPath": "C:\\Users\\SESA503898\\.nuget\\packages\\",
-      "outputPath": "C:\\WORK@SE\\Projects\\layout-service\\BaseRepository\\obj\\",
+      "outputPath": "C:\\WORK@SE\\Projects\\GitHub\\dot-net\\layout-service\\BaseRepository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
