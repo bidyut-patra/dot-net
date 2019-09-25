@@ -223,3 +223,6 @@ C:\WORK@SE\Projects\GitHub\dot-net\sample\sample\obj\Debug\sample.csproj.CoreCom
 C:\WORK@SE\Projects\GitHub\dot-net\sample\sample\obj\Debug\sample.csproj.CopyComplete
 C:\WORK@SE\Projects\GitHub\dot-net\sample\sample\obj\Debug\sample.dll
 C:\WORK@SE\Projects\GitHub\dot-net\sample\sample\obj\Debug\sample.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\sample\sample\obj\Debug\sample.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\sample\sample\bin\Swashbuckle.Core.dll
+C:\WORK@SE\Projects\GitHub\dot-net\sample\sample\bin\WebActivatorEx.dll

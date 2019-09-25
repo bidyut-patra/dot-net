@@ -1,0 +1,9 @@
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample\bin\ApplicationInsights.config
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample\bin\sample.dll.config
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample\bin\sample.dll
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample\Debug\sample.Resource.resources
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample\Debug\sample.csproj.GenerateResource.cache
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample\Debug\sample.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample\Debug\sample.csproj.CopyComplete
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample\Debug\sample.dll
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample\Debug\sample.csprojAssemblyReference.cache

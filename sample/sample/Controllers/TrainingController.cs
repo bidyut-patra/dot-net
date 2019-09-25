@@ -1,4 +1,5 @@
-﻿using sample.Models;
+﻿using sample.Exceptions;
+using sample.Models;
 using sample.Services;
 using System.Threading.Tasks;
 using System.Web.Http;
@@ -21,22 +22,21 @@ namespace sample.Controllers
         {
             var result = await this.TrainingService.GetAllTrainingData();
             return Ok(result);
-        }
-        
-        [HttpGet]
-        [Route("{id}")]
-        public async Task<IHttpActionResult> GetTrainingData(int id)
-        {
-            var result = await Task.Run(() => new TrainingData());
-            return Ok(result);
-        }
+        }       
 
         [HttpPost]
         [Route("")]
         public async Task<IHttpActionResult> SaveTrainingData([FromBody] TrainingData trainingData)
         {
-            var result = await this.TrainingService.SaveTrainingData(trainingData);
-            return Ok(result);
+            if (ModelState.IsValid)
+            {
+                var result = await this.TrainingService.SaveTrainingData(trainingData);
+                return Ok(result);
+            }
+            else
+            {
+                throw new ModelInvalidException();
+            }
         }
     }
 }

@@ -61,6 +61,15 @@ namespace sample {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to All mandatory fields do not have value.
+        /// </summary>
+        internal static string ModelInvalidError {
+            get {
+                return ResourceManager.GetString("ModelInvalidError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to End date must be greater than start date!.
         /// </summary>
         internal static string StartEndDateError {

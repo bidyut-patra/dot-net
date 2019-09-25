@@ -1,0 +1,9 @@
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample.unit.tests\bin\Debug\ApplicationInsights.config
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample.unit.tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample.unit.tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample.unit.tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample.unit.tests\bin\Debug\sample.unit.tests.dll.config
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\b\sample.unit.tests\bin\Debug\sample.unit.tests.dll
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample.unit.tests\Debug\sample.unit.tests.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample.unit.tests\Debug\sample.unit.tests.csproj.CopyComplete
+C:\WORK@SE\Projects\GitHub\dot-net\sample\.vs\sample\lut\0\i\sample.unit.tests\Debug\sample.unit.tests.dll
