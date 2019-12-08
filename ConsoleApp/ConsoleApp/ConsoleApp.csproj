@@ -107,33 +107,63 @@
     <Compile Include="Building\Window.cs" />
     <Compile Include="Riddles\AddTwoNumbersWithoutAddOperator\AddTwoNumbersWithoutAddOperator.cs" />
     <Compile Include="Riddles\AlgorithmBase.cs" />
-    <Compile Include="Riddles\CapitalizeLetters\StringOutput.cs" />
+    <Compile Include="Riddles\CheckPermutationArray\CheckPermutationArray.cs" />
+    <Compile Include="Riddles\FindDistinctValues\FindDistinctValues.cs" />
+    <Compile Include="Riddles\FindMissingNumberInSequence\FindMissingNumberInSequence.cs" />
+    <Compile Include="Riddles\FindNumbersDivisibleByGivenNumber\FindNumbersDivisibleByGivenNumber.cs" />
+    <Compile Include="Riddles\FindTriangleFromGivenEdges\FindTriangleFromGivenEdges.cs" />
+    <Compile Include="Riddles\FindUnpairedNumbers\FindUnpairedNumbers.cs" />
+    <Compile Include="Riddles\GenerateNumberSequence\GenerateNumberSequence.cs" />
+    <Compile Include="Riddles\Inputs\InputNumbersFromFile.cs" />
+    <Compile Include="Riddles\Inputs\InputFromFile.cs" />
+    <Compile Include="Riddles\Outputs\NumbersOutputToFile.cs" />
+    <Compile Include="Riddles\Outputs\OutputToFile.cs" />
+    <Compile Include="Riddles\Outputs\StringOutput.cs" />
     <Compile Include="Riddles\CapitalizeLetters\CapitalizeLetters.cs" />
-    <Compile Include="Riddles\ConsoleOutput.cs" />
+    <Compile Include="Riddles\Outputs\ConsoleOutput.cs" />
     <Compile Include="Riddles\Executor.cs" />
     <Compile Include="Riddles\FibonacciWithLoopAndRecursion\Fibonacci.cs" />
-    <Compile Include="Riddles\AddTwoNumbersWithoutAddOperator\NumbersInput.cs" />
+    <Compile Include="Riddles\Inputs\NumbersInput.cs" />
     <Compile Include="Riddles\FibonacciWithLoopAndRecursion\FibonacciInput.cs" />
-    <Compile Include="Riddles\AddTwoNumbersWithoutAddOperator\NumberOutput.cs" />
+    <Compile Include="Riddles\Outputs\NumberOutput.cs" />
     <Compile Include="Riddles\FibonacciWithLoopAndRecursion\FibonacciOutput.cs" />
     <Compile Include="Riddles\FindMaxTwoNumbers\FindMaxTwoNumbers.cs" />
     <Compile Include="Riddles\GenerateNumbersWithEqualProbability\GenerateNumbersWithEqualProbability.cs" />
-    <Compile Include="Riddles\GenerateNumbersWithEqualProbability\FloatNumbersOutput.cs" />
-    <Compile Include="Riddles\GenerateNumbersWithEqualProbability\FloatNumbersInput.cs" />
-    <Compile Include="Riddles\IAlgorithm.cs" />
-    <Compile Include="Riddles\IConsoleOutput.cs" />
-    <Compile Include="Riddles\IdentifyUniqueString\BooleanOutput.cs" />
-    <Compile Include="Riddles\IdentifyUniqueString\StringInput.cs" />
-    <Compile Include="Riddles\IKeyboardInput.cs" />
-    <Compile Include="Riddles\KeyboardInput.cs" />
-    <Compile Include="Riddles\PrintsAllNumbersWithoutLoop\NumberInput.cs" />
+    <Compile Include="Riddles\Outputs\FloatNumbersOutput.cs" />
+    <Compile Include="Riddles\Inputs\FloatNumbersInput.cs" />
+    <Compile Include="Riddles\Interfaces\IAlgorithm.cs" />
+    <Compile Include="Riddles\Interfaces\IOutput.cs" />
+    <Compile Include="Riddles\Outputs\BooleanOutput.cs" />
+    <Compile Include="Riddles\Inputs\StringInput.cs" />
+    <Compile Include="Riddles\Interfaces\IInput.cs" />
+    <Compile Include="Riddles\Inputs\KeyboardInput.cs" />
+    <Compile Include="Riddles\LongestBinaryGap\LongestBinaryGap.cs" />
+    <Compile Include="Riddles\Inputs\NumberInput.cs" />
     <Compile Include="Riddles\PrintsAllNumbersWithoutLoop\PrintNumbersWithoutLoop.cs" />
     <Compile Include="Riddles\ReactiveExtensions\ReactiveExample.cs" />
     <Compile Include="Riddles\ReversePolishNotation\ReversePolishNotation.cs" />
-    <Compile Include="Riddles\SmallestLargestNumbers\NumbersOutput.cs" />
+    <Compile Include="Riddles\Outputs\NumbersOutput.cs" />
     <Compile Include="Riddles\SmallestLargestNumbers\SmallestLargestNumbers.cs" />
     <Compile Include="Riddles\IdentifyUniqueString\UniqueString.cs" />
-    <Compile Include="Riddles\WordsSeparationBasedOnWordList\StringsInput.cs" />
+    <Compile Include="Riddles\Inputs\StringsInput.cs" />
+    <Compile Include="Riddles\Windows\InputDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Riddles\Windows\InputDataControl.Designer.cs">
+      <DependentUpon>InputDataControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Riddles\Windows\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Riddles\Windows\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Riddles\Windows\OutputDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Riddles\Windows\OutputDataControl.Designer.cs">
+      <DependentUpon>OutputDataControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Riddles\WordsSeparationBasedOnWordList\WordSeparationBasedOnWordList.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +182,17 @@
       <Project>{feff8f32-1f02-4b97-a8d6-493f572e2085}</Project>
       <Name>PersonDataProvider</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Riddles\Windows\InputDataControl.resx">
+      <DependentUpon>InputDataControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Riddles\Windows\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Riddles\Windows\OutputDataControl.resx">
+      <DependentUpon>OutputDataControl.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

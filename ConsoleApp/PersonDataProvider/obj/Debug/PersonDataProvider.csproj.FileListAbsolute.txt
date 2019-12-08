@@ -4,3 +4,9 @@ C:\WORK@SE\Projects\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.c
 C:\WORK@SE\Projects\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.dll
 C:\WORK@SE\Projects\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.pdb
 C:\WORK@SE\Projects\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\PersonDataProvider\bin\Debug\PersonDataProvider.dll
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\PersonDataProvider\bin\Debug\PersonDataProvider.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.dll
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\PersonDataProvider\obj\Debug\PersonDataProvider.pdb

@@ -15,7 +15,7 @@ namespace ConsoleApp.Riddles
             this._recursive = recursive;
         }
 
-        public override void Display(int[] data)
+        public override void Print(int[] data)
         {
             Console.WriteLine("\r\n" + this.GetDisplayText());
             foreach (var fn in data)

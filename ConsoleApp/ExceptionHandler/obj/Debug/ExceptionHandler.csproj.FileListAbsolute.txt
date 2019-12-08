@@ -4,3 +4,9 @@ C:\WORK@SE\Projects\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.cspro
 C:\WORK@SE\Projects\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.csproj.CoreCompileInputs.cache
 C:\WORK@SE\Projects\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.dll
 C:\WORK@SE\Projects\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\ExceptionHandler\bin\Debug\ExceptionHandler.dll
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\ExceptionHandler\bin\Debug\ExceptionHandler.pdb
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.csprojAssemblyReference.cache
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.csproj.CoreCompileInputs.cache
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.dll
+C:\WORK@SE\Projects\GitHub\dot-net\ConsoleApp\ExceptionHandler\obj\Debug\ExceptionHandler.pdb
