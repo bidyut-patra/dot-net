@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ namespace ConsoleApp.Riddles
         public IAlgorithm<In, Out> Algorithm { get; private set; }
         public IInput<In> Input { get; private set; }
         public IOutput<Out> Output { get; private set; }
+        public bool CaptureExecutionTime { get; set; } = true;
 
         public Executor(IAlgorithm<In, Out> algorithm, IInput<In> input)
         {
@@ -28,7 +30,15 @@ namespace ConsoleApp.Riddles
         public Out Execute()
         {
             var inputData = this.Input.GetData();
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
             var outputData = this.Algorithm.Compute(inputData);
+            stopwatch.Stop();
+            if(this.CaptureExecutionTime)
+            {
+                var execTimeText = stopwatch.Elapsed.Minutes + "M" + stopwatch.Elapsed.Seconds + "S" + stopwatch.Elapsed.Milliseconds + "MS";
+                Console.WriteLine("Time taken to compute: " + execTimeText);
+            }
             if(this.Output != null)
             {
                 this.Output.Print(outputData);

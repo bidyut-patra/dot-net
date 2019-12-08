@@ -33,9 +33,13 @@ namespace ConsoleApp
 
         private static void ExecuteAlgorithms()
         {
+            ExecuteAction(new Executor<string, bool>(new CheckEqualBrackets(), new StringInput(), new EqualBracketOutput()));
+            //var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
+            //ExecuteAction(new Executor<int[], int[]>(new FindDistinctValues(), new NumbersInput(generatedNumbers), new NumbersOutput()));
+            ExecuteAction(new Executor<int[], int[]>(new FindDistinctValues(), new NumbersInput(), new NumbersOutput()));
             ExecuteAction(new Executor<int[], int>(new FindNumbersDivisibleByGivenNumber(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<int[], bool>(new CheckPermutationArray(), new NumbersInput(), new BooleanOutput()));
-            var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()).Execute();
+            var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
             ExecuteAction(new Executor<int[], int>(new FindMissingNumberInSequence(), new NumbersInput(generatedNumbers), new NumberOutput()));
             //ExecuteAction(new Executor<int[], int>(new FindMissingNumberInSequence(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<int[], string>(new FindUnpairedNumbers(), new NumbersInput(), new StringOutput()));

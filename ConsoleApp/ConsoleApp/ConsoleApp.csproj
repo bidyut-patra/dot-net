@@ -107,9 +107,12 @@
     <Compile Include="Building\Window.cs" />
     <Compile Include="Riddles\AddTwoNumbersWithoutAddOperator\AddTwoNumbersWithoutAddOperator.cs" />
     <Compile Include="Riddles\AlgorithmBase.cs" />
+    <Compile Include="Riddles\CheckEqualBrackets\EqualBracketOutput.cs" />
+    <Compile Include="Riddles\CheckEqualBrackets\CheckEqualBrackets.cs" />
     <Compile Include="Riddles\CheckPermutationArray\CheckPermutationArray.cs" />
     <Compile Include="Riddles\FindDistinctValues\FindDistinctValues.cs" />
     <Compile Include="Riddles\FindMissingNumberInSequence\FindMissingNumberInSequence.cs" />
+    <Compile Include="Riddles\FindNumberInterections\FindNumberInterections.cs" />
     <Compile Include="Riddles\FindNumbersDivisibleByGivenNumber\FindNumbersDivisibleByGivenNumber.cs" />
     <Compile Include="Riddles\FindTriangleFromGivenEdges\FindTriangleFromGivenEdges.cs" />
     <Compile Include="Riddles\FindUnpairedNumbers\FindUnpairedNumbers.cs" />
