@@ -33,6 +33,10 @@ namespace ConsoleApp
 
         private static void ExecuteAlgorithms()
         {
+            ExecuteAction(new Executor<int[], int>(new FindMaxNumberPairs(), new NumbersInput(), new NumberOutput()));
+            ExecuteAction(new Executor<int[], int>(new FindSocksForLaundering(), new NumbersInput(), new NumberOutput()));
+            ExecuteAction(new Executor<int[], int>(new FindMaxMatchesInTennis(), new NumbersInput(), new NumberOutput()));
+            ExecuteAction(new Executor<int[], int>(new MinimizeBlockLargestSum(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<string, bool>(new CheckEqualBrackets(), new StringInput(), new EqualBracketOutput()));
             //var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
             //ExecuteAction(new Executor<int[], int[]>(new FindDistinctValues(), new NumbersInput(generatedNumbers), new NumbersOutput()));
