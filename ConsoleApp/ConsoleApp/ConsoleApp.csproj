@@ -112,6 +112,7 @@
     <Compile Include="Riddles\CheckPermutationArray\CheckPermutationArray.cs" />
     <Compile Include="Riddles\FindDistinctValues\FindDistinctValues.cs" />
     <Compile Include="Riddles\FindMaxMatchesInTennis\FindMaxMatchesInTennis.cs" />
+    <Compile Include="Riddles\FindMaxNumberPairs\CustomDictionary.cs" />
     <Compile Include="Riddles\FindMaxNumberPairs\FindMaxNumberPairs.cs" />
     <Compile Include="Riddles\FindMissingNumberInSequence\FindMissingNumberInSequence.cs" />
     <Compile Include="Riddles\FindNumberInterections\FindNumberInterections.cs" />
@@ -119,7 +120,9 @@
     <Compile Include="Riddles\FindSocksForLaundering\FindSocksForLaundering.cs" />
     <Compile Include="Riddles\FindTriangleFromGivenEdges\FindTriangleFromGivenEdges.cs" />
     <Compile Include="Riddles\FindUnpairedNumbers\FindUnpairedNumbers.cs" />
+    <Compile Include="Riddles\GenerateNumberSequence\GenerateNumberPairSequence.cs" />
     <Compile Include="Riddles\GenerateNumberSequence\GenerateNumberSequence.cs" />
+    <Compile Include="Riddles\GenerateSecuredGuid\GenerateSecuredGuid.cs" />
     <Compile Include="Riddles\Inputs\InputNumbersFromFile.cs" />
     <Compile Include="Riddles\Inputs\InputFromFile.cs" />
     <Compile Include="Riddles\MinimizeBlockLargestSum\MinimizeBlockLargestSum.cs" />

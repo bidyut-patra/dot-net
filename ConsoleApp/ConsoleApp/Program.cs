@@ -27,23 +27,34 @@ namespace ConsoleApp
 
         private static void ExecuteOthers()
         {
-            var rx = new ReactiveExample();
-            rx.Test();
+            //var rx = new ReactiveExample();
+            //rx.Test();
+
+            int[] a = { 1, 2, -4, 5, 6, -4, 4, 5, -5, 12, 11, 12, -12 };
+            for(var i = 0; i < a.Length; i++)
+            {
+                var hashCode = a[i].GetHashCode();
+                Console.Write("{0} ", hashCode);
+            }
+            Console.ReadLine();
         }
 
         private static void ExecuteAlgorithms()
         {
+            //ExecuteAction(new Executor<string, string>(new GenerateSecuredGuid(), new StringInput(), new StringOutput()));
+            //var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberPairSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
+            //ExecuteAction(new Executor<int[], int>(new FindMaxNumberPairs(), new NumbersInput(generatedNumbers), new NumberOutput()));
             ExecuteAction(new Executor<int[], int>(new FindMaxNumberPairs(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<int[], int>(new FindSocksForLaundering(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<int[], int>(new FindMaxMatchesInTennis(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<int[], int>(new MinimizeBlockLargestSum(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<string, bool>(new CheckEqualBrackets(), new StringInput(), new EqualBracketOutput()));
-            //var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
+            var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
             //ExecuteAction(new Executor<int[], int[]>(new FindDistinctValues(), new NumbersInput(generatedNumbers), new NumbersOutput()));
             ExecuteAction(new Executor<int[], int[]>(new FindDistinctValues(), new NumbersInput(), new NumbersOutput()));
             ExecuteAction(new Executor<int[], int>(new FindNumbersDivisibleByGivenNumber(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<int[], bool>(new CheckPermutationArray(), new NumbersInput(), new BooleanOutput()));
-            var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
+            generatedNumbers = new Executor<int[], int[]>(new GenerateNumberSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
             ExecuteAction(new Executor<int[], int>(new FindMissingNumberInSequence(), new NumbersInput(generatedNumbers), new NumberOutput()));
             //ExecuteAction(new Executor<int[], int>(new FindMissingNumberInSequence(), new NumbersInput(), new NumberOutput()));
             ExecuteAction(new Executor<int[], string>(new FindUnpairedNumbers(), new NumbersInput(), new StringOutput()));
