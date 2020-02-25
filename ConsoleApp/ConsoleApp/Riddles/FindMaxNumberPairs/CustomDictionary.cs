@@ -19,6 +19,9 @@ namespace ConsoleApp.Riddles
             this.entries = new Entry[length];
         }
 
+        /// <summary>
+        /// Gets the keys
+        /// </summary>
         public TKey[] Keys
         {
             get
@@ -32,6 +35,9 @@ namespace ConsoleApp.Riddles
             }
         }
 
+        /// <summary>
+        /// Gets the values
+        /// </summary>
         public TValue[] Values
         {
             get
@@ -45,6 +51,11 @@ namespace ConsoleApp.Riddles
             }
         }
 
+        /// <summary>
+        /// Finds the index of the key
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         private int IndexOf(TKey key)
         {
             var hashCode = key.GetHashCode();
@@ -54,22 +65,37 @@ namespace ConsoleApp.Riddles
             }
             else
             {
-                // Detect index collision and resolve it
-                int index = hashCode / this.entryLength;
-                while(index > this.entryLength)
-                {
-                    index = index / this.entryLength;
-                }
-                var indexOccupied = !this.entries[index].key.Equals(default(TKey));
-                // Temporary code to identify free index slot
-                if(indexOccupied)
-                {
-                    index -= 1;
-                }
-                return index;
+                return this.GetFreeIndex(key, hashCode);
             }
         }
 
+        /// <summary>
+        /// Resolve index collision and identify the index for given hashcode
+        /// </summary>
+        /// <param name="hashCode"></param>
+        /// <returns></returns>
+        private int GetFreeIndex(TKey key, int hashCode)
+        {
+            // Detect index collision and resolve it
+            int index = hashCode / this.entryLength;
+            while (index > this.entryLength)
+            {
+                index = index / this.entryLength;
+            }
+            var indexOccupied = !this.entries[index].key.Equals(default(TKey));
+            // Temporary code to identify free index slot
+            if (indexOccupied)
+            {
+                index -= 1;
+            }
+            return index;
+        }
+
+        /// <summary>
+        /// Checks if key exists
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public bool ContainsKey(TKey key)
         {
             var index = this.IndexOf(key);
@@ -78,6 +104,11 @@ namespace ConsoleApp.Riddles
             return !keyName.Equals(defaultKey);
         }
 
+        /// <summary>
+        /// Gets the value
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public TValue this[TKey key]
         {
             get
@@ -98,6 +129,11 @@ namespace ConsoleApp.Riddles
             }
         }
 
+        /// <summary>
+        /// Saves the key-value pairs
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
         public void Add(TKey key, TValue value)
         {
             var index = this.IndexOf(key);

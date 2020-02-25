@@ -41,7 +41,7 @@ namespace ConsoleApp
 
         private static void ExecuteAlgorithms()
         {
-            //ExecuteAction(new Executor<string, string>(new GenerateSecuredGuid(), new StringInput(), new StringOutput()));
+            ExecuteAction(new Executor<string, string>(new GenerateSecuredGuid(), new StringInput(), new StringOutput()));
             //var generatedNumbers = new Executor<int[], int[]>(new GenerateNumberPairSequence(), new NumbersInput()) { CaptureExecutionTime = false }.Execute();
             //ExecuteAction(new Executor<int[], int>(new FindMaxNumberPairs(), new NumbersInput(generatedNumbers), new NumberOutput()));
             ExecuteAction(new Executor<int[], int>(new FindMaxNumberPairs(), new NumbersInput(), new NumberOutput()));
