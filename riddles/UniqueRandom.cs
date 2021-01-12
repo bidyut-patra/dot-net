@@ -5,8 +5,8 @@ namespace Riddles
     public class UniqueRandom
     {
         public NumberRange Range { get; private set; }
+        public List<NumberRange> SubRanges { get; private set; }
 
-        private List<NumberRange> SubRanges;
         private int MemorySize;
 
         public UniqueRandom(int minValue, int maxValue, int memorySize = 1024)
