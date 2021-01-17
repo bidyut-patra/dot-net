@@ -7,12 +7,12 @@ namespace Riddles
         public NumberRange Range { get; private set; }
         public List<NumberRange> SubRanges { get; private set; }
 
-        private int MemorySize;
+        private int NumberCount;
 
-        public UniqueRandom(int minValue, int maxValue, int memorySize = 1024)
+        public UniqueRandom(int minValue, int maxValue, int memorySize = 20000)
         {
             this.Range = new NumberRange(minValue, maxValue + 1);
-            this.MemorySize = memorySize;
+            this.NumberCount = memorySize;
             this.SubRanges = new List<NumberRange>();
 
             this.ComputeSubRanges();
@@ -20,15 +20,15 @@ namespace Riddles
 
         private void ComputeSubRanges()
         {
-            if(this.MemorySize < this.Range.Difference)
+            if(this.NumberCount < this.Range.Difference)
             {
                 var currentMinValue = this.Range.MinValue;
                 var index = currentMinValue;
                 for (; index <= this.Range.MaxValue; index++)
                 {
-                    if(index == (currentMinValue + this.MemorySize))
+                    if(index == (currentMinValue + this.NumberCount))
                     {
-                        this.SubRanges.Add(new NumberRange(currentMinValue, currentMinValue + this.MemorySize));
+                        this.SubRanges.Add(new NumberRange(currentMinValue, currentMinValue + this.NumberCount));
                         currentMinValue = index + 1;
                     }
                 }

@@ -28,7 +28,7 @@ namespace Riddles
         }
 
         private Random Algorithm { get; set; }
-        public int[] Memory { get; set; }
+        public int?[] Memory { get; set; }
 
         public NumberRange(int minValue, int maxValue)
         {
@@ -36,7 +36,7 @@ namespace Riddles
             this.MaxValue = maxValue;
 
             this.Algorithm = new Random();
-            this.Memory = new int[this.Difference];
+            this.Memory = new int?[this.Difference];
             this.Index = 0;
         }
 
@@ -48,7 +48,7 @@ namespace Riddles
                 number = this.Algorithm.Next(this.MinValue, this.MaxValue);
             }
 
-            if(this.Index < this.Difference)
+            if (this.Index < this.Difference)
             {
                 this.Memory[Index++] = (int)number;
             }
@@ -58,6 +58,16 @@ namespace Riddles
             }
 
             return number;
+        }
+
+        public bool ValueWithinRange(int value)
+        {
+            return value >= this.MinValue && value <= this.MaxValue;
+        }
+
+        public static NumberRange operator++(NumberRange range) 
+        {
+            return new NumberRange(range.MinValue + range.Difference, range.MaxValue + range.Difference);
         }
     }
 }
