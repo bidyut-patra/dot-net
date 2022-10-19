@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+import "google/protobuf/duration.proto";  
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "GrpcPersonDetailsClient";
+
+package persondetails;
+
+// The greeting service definition.
+service PersonDetails {
+  // Sends a greeting
+  rpc GetPerson (PersonRequest) returns (Person);
+}
+
+// The request message containing the user's name.
+message PersonRequest {
+  string personId = 1;
+}
+
+// The response message containing the greetings.
+
+message Person {
+	string id = 1;
+	string name = 2;
+	Address address = 3;
+	TechnicalSkills skills = 4;
+	EducationInfo education = 5;
+	EmploymentInfo employment = 6;
+	FamilyBackground background = 7;
+	EmploymentHistory employmentHistory = 8;
+}
+
+message Address {
+	string house = 1;
+	string street = 2;
+	string city = 3;
+	string country = 4;
+	string pincode = 5;
+}
+
+message EmploymentInfo {
+	string name = 1;
+	string lastDesignation = 2;
+	google.protobuf.Timestamp joiningDate = 3;
+	google.protobuf.Timestamp relievingDate = 4;
+}
+
+message EmploymentHistory {
+	repeated EmploymentInfo employments = 1;
+}
+
+message EducationInfo {
+	string highestQualification = 1;
+	google.protobuf.Timestamp yearOfPassout = 2;
+}
+
+message TechnicalSkills {
+	repeated string domains = 1;
+	repeated string cloudKnowledges = 2;
+	repeated string programmingLanguages = 3;
+	repeated string frameworkKnowledges = 4;
+	repeated string architectureKnowledges = 5;
+}
+
+message FamilyBackground {
+	bool isMarried = 1;
+	int32 noOfChildren = 2;
+	string birthPlace = 3;
+}
