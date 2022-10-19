@@ -1,0 +1,106 @@
+﻿<Window x:Class="SecureStore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SecureStore"
+        mc:Ignorable="d"        
+        Icon="icons\product.ico"
+        WindowStartupLocation="CenterScreen"
+        Title="{x:Static local:Resource.ProductTitle}"
+        Height="550" Width="1000"
+        Closing="OnWindowClosing"
+        MinHeight="550" MinWidth="1000">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type local:SecurityViewModel}">
+            <Grid Height="40" Margin="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Grid.Column="0" Stroke="LightGray" Fill="WhiteSmoke" />
+                <TextBlock Grid.Column="0" Margin="5,0,5,0" Text="{Binding Path=Title}" VerticalAlignment="Center"/>
+                <Rectangle Grid.Column="1" Stroke="LightGray" Fill="WhiteSmoke" />
+                <TextBlock Grid.Column="1" Margin="5,0,5,0" Text="{Binding Path=Description}" VerticalAlignment="Center"/>
+                <Rectangle Grid.Column="2" Stroke="LightGray" Fill="WhiteSmoke" />
+                <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button Margin="5,0,5,0" Width="25" Height="25" Click="OnCopyUser" Cursor="Hand"
+                                ToolTip="{x:Static local:Resource.CopyTooltip}">
+                        <Image Source="icons\copy.ico" />
+                    </Button>
+                    <Button Margin="5,0,5,0" Width="25" Height="25" PreviewMouseLeftButtonDown ="OnSeeUser" Cursor="Hand"
+                                PreviewMouseLeftButtonUp="OnHideUser" ToolTip="{x:Static local:Resource.ShowSecret}">
+                        <Image Source="icons\eye.ico" />
+                    </Button>
+                    <TextBlock Text="{Binding Path=User}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <Rectangle Grid.Column="3" Stroke="LightGray" Fill="WhiteSmoke" />
+                <StackPanel Grid.Column="3" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button Margin="5,0,5,0" Width="25" Height="25" Click="OnCopyPassword" Cursor="Hand"
+                                ToolTip="{x:Static local:Resource.CopyTooltip}">
+                        <Image Source="icons\copy.ico" />
+                    </Button>
+                    <Button Margin="5,0,5,0" Width="25" Height="25" PreviewMouseLeftButtonDown ="OnSeePassword" Cursor="Hand"
+                                PreviewMouseLeftButtonUp="OnHidePassword" ToolTip="{x:Static local:Resource.ShowSecret}">
+                        <Image Source="icons\eye.ico" />
+                    </Button>
+                    <TextBlock Text="{Binding Path=Password}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <Rectangle Grid.Column="4" Stroke="LightGray" Fill="WhiteSmoke" />
+                <StackPanel Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button Margin="5,0,5,0" Width="25" Height="25" Click="OnEdit" Cursor="Hand"
+                                ToolTip="{x:Static local:Resource.EditTooltip}">
+                        <Image Source="icons\edit.ico" />
+                    </Button>
+                    <Button Margin="5,0,5,0" Width="25" Height="25"  Click="OnDelete" Cursor="Hand"
+                                ToolTip="{x:Static local:Resource.DeleteTooltip}">
+                        <Image Source="icons\delete.ico" />
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.85*"/>
+            <RowDefinition Height="0.15*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*"/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="10">
+            <TextBlock Text="{x:Static local:Resource.EncryptedData}" FontSize="20"/>
+            <ListBox ItemsSource="{Binding Items}" Height="370"
+                     ScrollViewer.CanContentScroll="True" Margin="0" Padding="0"
+                     ScrollViewer.VerticalScrollBarVisibility="Visible">
+                <!--<ListBoxItem>
+                    <GridView>
+                        <GridViewColumn Header="Test1" />
+                        <GridViewColumn Header="Test2" />
+                        <GridViewColumn Header="Test3" />
+                        <GridViewColumn Header="Button">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button>Button Text</Button>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListBoxItem>-->
+            </ListBox>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
+            <Button Height="40" Width="150" Content="Change Master Key" Click="OnChangeMasterKey" Margin="10,0,0,0" Cursor="Hand"/>
+            <Button Height="40" Width="150" Content="Backup Database" Click="OnBackupDatabase" Margin="10,0,0,0" Cursor="Hand"/>
+            <TextBlock VerticalAlignment="Center" Margin="10,0,0,0" Width="250" Text="{Binding Path=ClipboardExpiryMessage}" Foreground="Red"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
+            <Button Height="40" Width="80" Content="Add" Click="OnAdd" Margin="0,0,10,0" Cursor="Hand"/>
+            <Button Height="40" Width="80" Content="Save" Click="OnSave" Margin="0,0,10,0" Cursor="Hand"/>
+        </StackPanel>
+    </Grid>
+</Window>
