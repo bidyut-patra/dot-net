@@ -49,6 +49,38 @@ namespace SecureStore
             return masterPasswordHash.Equals(storedMasterPasswordHash);
         }
 
+        internal static MainViewModel Get()
+        {
+            return ViewModelRegistry.Instance.Get(typeof(MainViewModel)) as MainViewModel;
+        }
+
+        internal static MainViewModel Create(string password)
+        {
+            MainViewModel mainViewModel = null;
+            try
+            {
+                mainViewModel = new MainViewModel(password);
+                mainViewModel.LoadData();
+                ViewModelRegistry.Instance.Register(mainViewModel);
+            }
+            catch (InvalidMasterKey imk)
+            {
+                mainViewModel = null;
+                MessageBox.Show(imk.Message);
+            }
+            catch (DecryptionError de)
+            {
+                mainViewModel = null;
+                MessageBox.Show(de.Message);
+            }
+            catch (Exception ex)
+            {
+                mainViewModel = null;
+                MessageBox.Show(ex.Message);
+            }
+            return mainViewModel;
+        }
+
         internal void ChangeMasterKey(string masterPassword)
         {
             var decryptedModels = new ObservableCollection<SecurityViewModel>();

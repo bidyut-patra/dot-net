@@ -56,10 +56,10 @@ namespace SecureStore
 
         private void OpenMainWindow()
         {
-            var mainViewModel = this.GetMainViewModel();
+            var mainViewModel = MainViewModel.Get();
             if (mainViewModel == null)
             {
-                mainViewModel = this.CreateMainViewModel();
+                mainViewModel = MainViewModel.Create(this.masterPassword.Password);
                 if (mainViewModel == null)
                 {
                     this.masterPassword.Clear();
@@ -162,39 +162,6 @@ namespace SecureStore
             {
                 return false;
             }
-        }
-
-        private MainViewModel GetMainViewModel()
-        {
-            var mainViewModel = ViewModelRegistry.Instance.Get(typeof(MainViewModel));
-            return mainViewModel as MainViewModel;
-        }
-
-        private MainViewModel CreateMainViewModel()
-        {
-            MainViewModel mainViewModel = null;
-            try
-            {
-                mainViewModel = new MainViewModel(this.masterPassword.Password);
-                mainViewModel.LoadData();
-                ViewModelRegistry.Instance.Register(mainViewModel);
-            }
-            catch(InvalidMasterKey imk)
-            {
-                mainViewModel = null;
-                MessageBox.Show(imk.Message);
-            }
-            catch (DecryptionError de)
-            {
-                mainViewModel = null;
-                MessageBox.Show(de.Message);
-            }
-            catch(Exception ex)
-            {
-                mainViewModel = null;
-                MessageBox.Show(ex.Message);
-            }
-            return mainViewModel;
-        }
+        }    
     }
 }

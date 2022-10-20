@@ -16,8 +16,22 @@ namespace SecureStore
             this.DispatcherUnhandledException += OnDispatcherUnhandledException;
             AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
 
-            var mPasswordDialog = new MasterPassword(false, false, Resource.AppLoginDlgTitle);
-            mPasswordDialog.ShowDialog();
+            if(e.Args.Length == 0)
+            {
+                var mPasswordDialog = new MasterPassword(false, false, Resource.AppLoginDlgTitle);
+                mPasswordDialog.ShowDialog();
+            }
+            else
+            {
+                var password = e.Args[0];
+                var viewModel = MainViewModel.Create(password);
+                if(viewModel != null)
+                {
+                    var MainWindow = new MainWindow();
+                    MainWindow.DataContext = viewModel;
+                    MainWindow.Show();
+                }
+            }
         }
 
         private void OnUnhandledException(object sender, UnhandledExceptionEventArgs e)
